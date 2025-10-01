@@ -4,4 +4,12 @@ jobs:
   hello_world:
     runs-on: ubuntu-latest
     steps:
-      - run: pwd
+    - run: ls -la
+
+    - name: CLonar el repositorio
+      uses: actions/checkout@v3
+    
+    - run: ls -la
+    
+    - run: python3 main.py
+
