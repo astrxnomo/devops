@@ -3,7 +3,7 @@ name: build image
 on:
   push:
     branches: [ example ]
-j
+    
 jobs:
 
   runs-on: ubuntu-latest
